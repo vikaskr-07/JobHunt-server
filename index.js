@@ -12,6 +12,8 @@ dotenv.config({});
 
 const app = express();
 
+app.get('/',(req,res) => res.send("hello from server"));
+
 // middleware
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
