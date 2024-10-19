@@ -21,7 +21,7 @@ app.use(cookieParser());
 const corsOptions = {
     origin: [
         'http://localhost:5173',  // For local development
-        'https://your-frontend-app-url.com'  // Replace with  deployed frontend URL
+        'https://jobhunt-tau.vercel.app/'  // Replace with  deployed frontend URL
     ],
     credentials: true
 };
